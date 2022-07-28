@@ -1,0 +1,270 @@
+[
+    {
+        "%vlocity_namespace%__AdditionalObjects__c": "{}",
+        "%vlocity_namespace%__CreationVlocityActionId__c": "",
+        "%vlocity_namespace%__CurrentStatus__c": "Active",
+        "%vlocity_namespace%__EndDateTime__c": "",
+        "%vlocity_namespace%__Priority__c": 1,
+        "%vlocity_namespace%__RuleEvaluationClassName__c": "",
+        "%vlocity_namespace%__RuleEvaluationMethodName__c": "",
+        "%vlocity_namespace%__StartDateTime__c": "2018-09-26T22:18:00.000Z",
+        "%vlocity_namespace%__StateModelId__c": {
+            "%vlocity_namespace%__FieldAPIName__c": "Status",
+            "%vlocity_namespace%__ObjectAPIName__c": "Quote",
+            "%vlocity_namespace%__TypeFieldName__c": null,
+            "%vlocity_namespace%__TypeFieldValue__c": null,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModel__c/Generated1184146477",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModel__c"
+        },
+        "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+        "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__VersionNumber__c": 1,
+        "%vlocity_namespace%__VlocityStateTransition__c": [
+            {
+                "%vlocity_namespace%__Alternate__c": "",
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Approved",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Approved/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Approved",
+                "%vlocity_namespace%__IsDefaultTransition__c": true,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Issued",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Issued/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Issued",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AllTrue",
+                "Name": "Approved > Issued",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated-1628119254"
+            },
+            {
+                "%vlocity_namespace%__Alternate__c": "",
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Draft",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Draft/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Draft",
+                "%vlocity_namespace%__IsDefaultTransition__c": true,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Submitted",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Submitted/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Submitted",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AllTrue",
+                "Name": "Draft >Submitted",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated-1061019792"
+            },
+            {
+                "%vlocity_namespace%__Alternate__c": "",
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Submitted",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Submitted/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Submitted",
+                "%vlocity_namespace%__IsDefaultTransition__c": false,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Underwriting",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Underwriting/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Underwriting",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AnyTrue",
+                "Name": "Submitted > Underwriting",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated-923953291"
+            },
+            {
+                "%vlocity_namespace%__Alternate__c": "",
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Underwriting",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Underwriting/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Underwriting",
+                "%vlocity_namespace%__IsDefaultTransition__c": true,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Approved",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Approved/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Approved",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AllTrue",
+                "Name": "Underwriting > Approved",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated-262528951"
+            },
+            {
+                "%vlocity_namespace%__Alternate__c": "",
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Underwriting",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Underwriting/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Underwriting",
+                "%vlocity_namespace%__IsDefaultTransition__c": true,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Decline",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Decline/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Decline",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AnyTrue",
+                "Name": "Underwriting > Declined",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated1638817860"
+            },
+            {
+                "%vlocity_namespace%__Alternate__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Underwriting",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Underwriting/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__Description__c": "",
+                "%vlocity_namespace%__From__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Submitted",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Submitted/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__From__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__From__r.Name": "Submitted",
+                "%vlocity_namespace%__IsDefaultTransition__c": true,
+                "%vlocity_namespace%__StateModelVersionId__c": {
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                    "%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                    "%vlocity_namespace%__VersionNumber__c": 1,
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c"
+                },
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__FieldAPIName__c": "Status",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__StateModelId__r.%vlocity_namespace%__ObjectAPIName__c": "Quote",
+                "%vlocity_namespace%__StateModelVersionId__r.%vlocity_namespace%__VersionNumber__c": 1,
+                "%vlocity_namespace%__To__c": {
+                    "%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                    "Name": "Approved",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__VlocityState__c/Approved/Insurance Quote Underwriting",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityState__c"
+                },
+                "%vlocity_namespace%__To__r.%vlocity_namespace%__DTPStateModelName__c": "Insurance Quote Underwriting",
+                "%vlocity_namespace%__To__r.Name": "Approved",
+                "%vlocity_namespace%__TransitionCompletionCriteria__c": "AllTrue",
+                "Name": "Submitted > Approved",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateTransition__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateTransition__c/Generated-908857752"
+            }
+        ],
+        "Name": "Insurance Quote Underwriting V1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityStateModelVersion__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityStateModelVersion__c/%vlocity_namespace%__VlocityStateModel__c/Generated1184146477/1"
+    }
+]

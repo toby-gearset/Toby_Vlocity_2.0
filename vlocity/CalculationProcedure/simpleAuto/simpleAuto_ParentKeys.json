@@ -1,0 +1,15 @@
+[
+    "CalculationMatrix/carAltFuel",
+    "CalculationMatrix/carBrakes",
+    "CalculationMatrix/carStability",
+    "CalculationMatrix/carSymbol",
+    "CalculationMatrix/carTheft",
+    "CalculationMatrix/carValue",
+    "CalculationMatrix/carYear",
+    "CalculationMatrix/deductCCDNew",
+    "CalculationMatrix/deductCOLL",
+    "CalculationMatrix/limitBI",
+    "CalculationMatrix/limitMD",
+    "CalculationMatrix/limitPD",
+    "CalculationMatrix/limitUM"
+]
